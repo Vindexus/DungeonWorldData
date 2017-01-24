@@ -24,7 +24,7 @@ rawParser.run(config)
 //For example
 //description: 'You get +1 on Parley when you have max HP.'
 var parsedConfig = config
-parsedConfig.outputFiles = [path.join(__dirname, "..", "game_data_parsed.json")]
+parsedConfig.outputFiles = [path.join(__dirname, "..", "game_data_basic.json")]
 var parser = new Parser()
 parser.init(parsedConfig)
 parser.registerStep(function (gameData) {
