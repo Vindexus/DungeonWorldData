@@ -1,6 +1,7 @@
 var Parser                    = require('rpgparser-data')
 var path                      = require('path')
 var handlebars                = require('handlebars')
+var helpers                   = require(path.join(__dirname, "..", "helpers"))
 
 var gameDataDir = path.join(__dirname, "..", "source")
 
@@ -27,13 +28,9 @@ parsedConfig.outputFiles = [path.join(__dirname, "..", "game_data_parsed.json")]
 var parser = new Parser()
 parser.init(parsedConfig)
 parser.registerStep(function (gameData) {
-  handlebars.registerHelper('move', function(move) {
-    return gameData.moves[move].name
-  });
-
-  handlebars.registerHelper('tag', function(tag) {
-    return gameData.tags[tag].name
-  });
+  helpers.forEach(function (helper) {
+    helper(handlebars, gameData)
+  })
 
   function runHelpers (data) {
     if(typeof(data) == 'object') {
@@ -50,6 +47,11 @@ parser.registerStep(function (gameData) {
   }
 
   return runHelpers(gameData)
+})
+parser.registerStep(function (gameData) {
+  var dungeonWorldPackage = require(path.join(__dirname, "..", "package.json"))
+  gameData.version = dungeonWorldPackage.version
+  return gameData
 })
 parser.run(parsedConfig)
 
