@@ -1,0 +1,23 @@
+{
+  "name": "dungeonworld-data",
+  "version": "1.0.1",
+  "description": "An NPM module to grab and work with Dungeon World text as JSON. Moves, classes, monsters, items, spells etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node compilers/data.js",
+    "postinstall": "node compilers/data.js"
+  },
+  "keywords": [
+    "rpg",
+    "dungeon",
+    "world"
+  ],
+  "author": "Colin \"Vindexus\" Kierans",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.0.6",
+    "nodemon": "^1.11.0",
+    "rpgparser-data": "^1.0.4"
+  }
+}
