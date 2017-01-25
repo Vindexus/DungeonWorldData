@@ -17,7 +17,12 @@ module.exports = {
     '{{blank}} does not trust me, and for good reason.'
   ],
   //TODO: Array of arrays
-  looks: ['Knowing Eyes, Fiery Eyes, or Joyous Eyes', 'Fancy Hair, Wild Hair, or Stylish Cap', 'Finery, Traveling Clothes, or Poor Clothes', 'Fit Body, Well-fed Body, or Thin Body'],
+  looks: [
+    ['Knowing Eyes', 'Fiery Eyes', 'Joyous Eyes'],
+    ['Fancy Hair','Wild Hair','Stylish Cap'], 
+    ['Finery', 'Traveling Clothes', 'Poor Clothes'], 
+    ['Fit Body', 'Well-fed Body', 'Thin Body']
+  ],
   race_moves: {
     points_to: 'moves',
     list: ['bard_elf', 'bard_human']

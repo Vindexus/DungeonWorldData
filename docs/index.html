@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dungeon World Data Examples</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>2 Random Basic Moves</h2>
+                <div id="random-moves"></div>
+
+                <h2>Random Look</h2>
+                <table id="random-look">
+                    <thead>
+                        <tr>
+                            <th>Class</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Markdown Converter -->
+    <script src="js/markdown.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        function getRandom (items) {
+            return items[Math.floor(Math.random()*items.length)];
+        }
+
+        function moveToHtml (move) {
+            return '<div class="move"><h3>' + move.name + '</h3><div class="description">' + markdown.toHTML(move.description) + '</div></div>'
+        }
+
+        $(document).ready(function () {
+            $.getJSON("https://raw.githubusercontent.com/Vindexus/DungeonWorldData/master/json/game_data_basic.json", function (data) {
+                for(var i = 0; i < 2; i++) {
+                    var move = getRandom(data.basic_moves)
+                    $('#random-moves').append(moveToHtml(move))
+                }
+
+                var cl = getRandom(data.classes_list)
+                var tr = $('#random-look tbody tr')
+                tr.append('<td>' + cl.name + '</td>')
+                console.log('cl', cl)
+                console.log('cl.looks', cl.looks)
+                for(var i = 0; i < 4; i++) {
+                    var look = getRandom(cl.looks[i])
+                    tr.append('<td>' + look + '</td>')
+                }
+            })
+        })
+    </script>
+
+</body>
+
+</html>
