@@ -2,14 +2,20 @@ var fs                        = require('fs')
 var path                      = require('path')
 var helpers                   = require(path.join(__dirname, "lib", "helpers"))
 var rawData                   = JSON.parse(fs.readFileSync(path.join(__dirname, "game_data_raw.json")))
-var basicData                = JSON.parse(fs.readFileSync(path.join(__dirname, "game_data_basic.json")))
+var basicData                 = JSON.parse(fs.readFileSync(path.join(__dirname, "game_data_basic.json")))
+var rawCompiler               = require(path.join(__dirname, "compilers", "raw"))
+var parsedCompiler            = require(path.join(__dirname, "compilers", "parsed"))
 
 var DW = function () {
   return {
     rawData: rawData,
     basicData: basicData,
-    helpers: helpers
+    helpers: helpers,
+    compilers: {
+      raw: rawCompiler,
+      parsed: parsedCompiler
+    }
   }
 }
 
-module.exports = DW
+module.exports = new DW()
