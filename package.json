@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "node compiler.js",
-    "postinstall": "node compilers/data.js"
+    "compile": "node compiler.js"
   },
   "keywords": [
     "rpg",
