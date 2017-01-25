@@ -33,23 +33,37 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <h2>2 Random Basic Moves</h2>
+                <h2>Random Basic Move</h2>
                 <div id="random-moves"></div>
 
                 <h2>Random Look</h2>
-                <table id="random-look">
+                <table id="random-look" class="table">
                     <thead>
                         <tr>
                             <th>Class</th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
+                            <th>Eyes</th>
+                            <th>Hair</th>
+                            <th>Clothes</th>
+                            <th>Body</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             
                         </tr>
+                    </tbody>
+                </table>
+
+                <h2>Equipment With the <em>Close</em> Tag</h2>
+                <table class="table" id="close-equipment">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Tags</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
                     </tbody>
                 </table>
             </div>
@@ -79,20 +93,30 @@
 
         $(document).ready(function () {
             $.getJSON("https://raw.githubusercontent.com/Vindexus/DungeonWorldData/master/json/game_data_basic.json", function (data) {
-                for(var i = 0; i < 2; i++) {
-                    var move = getRandom(data.basic_moves)
-                    $('#random-moves').append(moveToHtml(move))
-                }
+                var move = getRandom(data.basic_moves)
+                $('#random-moves').append(moveToHtml(move))
 
                 var cl = getRandom(data.classes_list)
                 var tr = $('#random-look tbody tr')
                 tr.append('<td>' + cl.name + '</td>')
-                console.log('cl', cl)
-                console.log('cl.looks', cl.looks)
                 for(var i = 0; i < 4; i++) {
                     var look = getRandom(cl.looks[i])
                     tr.append('<td>' + look + '</td>')
                 }
+
+                var closeEquipment = []
+                for(var key in data.equipment) {
+                    var e = data.equipment[key]
+                    console.log('e.tags', e.tags)
+                    if(e.tags && e.tags.indexOf('close') >= 0) {
+                        closeEquipment.push(e)
+                    }
+                }
+
+                var closeTbody = $('#close-equipment')
+                closeEquipment.forEach(function (i) {
+                    closeTbody.append('<tr><td>' + i.name + '</td><td>' + i.tags.join(", ") + '</td></tr>')
+                })
             })
         })
     </script>
