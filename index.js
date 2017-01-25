@@ -1,19 +1,25 @@
 var fs                        = require('fs')
 var path                      = require('path')
 var helpers                   = require(path.join(__dirname, "lib", "helpers"))
-var rawData                   = JSON.parse(fs.readFileSync(path.join(__dirname, "game_data_raw.json")))
-var basicData                 = JSON.parse(fs.readFileSync(path.join(__dirname, "game_data_basic.json")))
+try {
+  var rawData                   = JSON.parse(fs.readFileSync(path.join(__dirname, "json", "game_data_raw.json")))
+  var basicData                 = JSON.parse(fs.readFileSync(path.join(__dirname, "json", "game_data_basic.json")))
+}
+catch (ex) {
+  rawData = {}
+  basicData = {}
+}
 var rawCompiler               = require(path.join(__dirname, "compilers", "raw"))
-var parsedCompiler            = require(path.join(__dirname, "compilers", "parsed"))
+var basicCompiler            = require(path.join(__dirname, "compilers", "basic"))
 
 var DW = function () {
   return {
-    rawData: rawData,
-    basicData: basicData,
+    rawData: rawData, //None of the mustache helpers are removed. EG: "+1 to {{move parley}}"
+    basicData: basicData, //The helpers have been run through simple text replacement. EG: "+1 to Parley"
     helpers: helpers,
     compilers: {
       raw: rawCompiler,
-      parsed: parsedCompiler
+      basic: basicCompiler
     }
   }
 }

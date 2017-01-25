@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "handlebars": "^4.0.6",
+    "lodash": "^4.17.4",
     "nodemon": "^1.11.0",
     "rpgparser-data": "^1.0.4"
   }

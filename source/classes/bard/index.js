@@ -23,6 +23,24 @@ module.exports = {
     ['Finery', 'Traveling Clothes', 'Poor Clothes'], 
     ['Fit Body', 'Well-fed Body', 'Thin Body']
   ],
+  alignments: {
+    good: {
+      name: 'Good',
+      description: 'Perform your art to aid someone else.'
+    },
+    neutral: {
+      name: 'Neutral',
+      description: 'Avoid a conflict or defuse a tense situation.'
+    },
+    chaotic: {
+      name: 'Chaotic',
+      description: 'Spur others to significant and unplanned decisive action.'
+    }
+  },
+  alignments_list: {
+    points_to: 'classes.bard.alignments',
+    list: ['good', 'neutral', 'chaotic']
+  },
   race_moves: {
     points_to: 'moves',
     list: ['bard_elf', 'bard_human']
@@ -33,10 +51,10 @@ module.exports = {
   },
   advanced_moves_1: {
     points_to: 'moves',
-    list: ['healing_song', 'vicious_cacophony']
+    list: ['healing_song', 'vicious_cacophony', 'it_goes_to_eleven', 'metal_hurlant', 'a_little_help_from_my_friends', 'eldritch_tomes', 'duelists_parry', 'bamboozle', 'multiclass_dabbler', 'multiclass_initiate']
   },
   advanced_moves_2: {
     points_to: 'moves',
-    list: ['arcane_art']
+    list: ['healing_chorus']
   }
 }
