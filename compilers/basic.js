@@ -24,7 +24,7 @@ parser.registerStep(function (gameData) {
       }
     }
     else if(typeof(data) == 'string') {
-      var template = handlebars.compile(data)
+      var template = handlebars.compile(data, {noEscape: true})
       return template(gameData)
     }
 

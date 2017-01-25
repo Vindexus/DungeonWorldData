@@ -14,5 +14,9 @@ module.exports = {
   starting_moves: {
     points_to: 'moves',
     list: ['herculean_appetites']
+  },
+  advanced_moves_1: {
+    points_to: 'moves',
+    list: ['smash']
   }
 }
