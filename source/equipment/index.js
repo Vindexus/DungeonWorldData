@@ -22,6 +22,13 @@ module.exports = {
   club_shillelagh: {
     name: 'Club, Shillelagh',
     tags: ['close', '1 coin', '1 weight']
+  },
+
+  /* Magic Items */
+  vorpal_sword: {
+    name: 'Vorpal Sword',
+    description: 'Snicker-snack and all that. Sharp as anything, this simple-seeming sword means to separate one thing from another—the limb from the body or folk from their lives. When you deal damage with the Vorpal Sword, your enemy must choose something (an item, an advantage, a limb) and lose it, permanently.',
+    tags: ['close', '3 piercing', '2 weight']
   }
 }
 
