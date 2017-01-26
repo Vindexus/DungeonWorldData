@@ -2,15 +2,18 @@
 A NodeJS project to put all Dungeon World's data into a JSON file and an npm module.
 
 ## Getting the JSON
-Raw JSON: [link.json](#)  
-Basic JSON: [link2.json](#)
+Raw JSON: https://raw.githubusercontent.com/Vindexus/DungeonWorldData/0.0.1/json/game_data_raw.json  
+Basic JSON: https://raw.githubusercontent.com/Vindexus/DungeonWorldData/0.0.1/json/game_data_basic.json
+
+## Raw vs Basic
+The raw JSON file includes the unparsed handlebar helpers such as `Take +1 forward to {{move 'defy_danger'}}`.  
+The basic JSON file has had those parsed through basic helpers, so it would become `Take +1 forward to Defy Danger`.
 
 ## Getting the Module
 `npm install dungeonworld-data`
 
-
-### Examples
-See [this project](#) for a bunch of example NodeJS scripts that use the JSON data.
+### Examples with NodeJS
+See [this project](https://www.github.com/Vindexus/dw-data-scripts) for a bunch of example NodeJS scripts that use the JSON data.
 
 ```
 var dw = require('dungeonworld-data')
@@ -20,9 +23,6 @@ console.log("Bard base HP: " + dw.basicData.classes.bard.base_hp)
 ## Compiled from Source
 The JSON is compiled from the files and folders in the `source` folder using the npm module I've written called `rpgparser-data`.
 
-## Raw vs Basic
-The raw JSON file includes the unparsed handlebar helpers such as `Take +1 forward to {{move 'defy_danger'}}`.  
-The basic JSON file has had those parsed through basic helpers, so it would become `Take +1 forward to Defy Danger`.
 
 ## Preview/Excerpt of Data
 This is a preview of the **structure**; the actual data has more text.
