@@ -51,10 +51,10 @@ module.exports = {
   },
   advanced_moves_1: {
     points_to: 'moves',
-    list: ['healing_song', 'vicious_cacophony', 'it_goes_to_eleven', 'metal_hurlant', 'a_little_help_from_my_friends', 'eldritch_tomes', 'duelists_parry', 'bamboozle', 'multiclass_dabbler', 'multiclass_initiate']
+    list: ['healing_song', 'vicious_cacophony', 'it_goes_to_eleven', 'metal_hurlant', 'a_little_help_from_my_friends', 'eldritch_tones', 'duelists_parry', 'bamboozle', 'multiclass_dabbler', 'multiclass_initiate']
   },
   advanced_moves_2: {
     points_to: 'moves',
-    list: ['healing_chorus']
+    list: ['healing_chorus', 'vicious_blast', 'unforgettable_face', 'reputation', 'eldritch_chord', 'an_ear_for_magic', 'devious', 'duelists_block', 'con', 'multiclass_master']
   }
 }
