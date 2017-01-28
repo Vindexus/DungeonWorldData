@@ -117,6 +117,25 @@ var items = {
     tags: ['6 uses', '5 coins', '0 weight'],
     description: "When you share halfling pipeleaf with someone, expend two uses and take +1 forward to {{move 'parley'}} with them."
   },
+
+  oil_of_tagit: {
+    tags: ['dangerous', 'applied', '15 coins', '0 weight'],
+    description: 'The target falls into a light sleep.'
+  },
+  bloodweed: {
+    tags: ['dangerous', 'touch', '12 couns', '0 weight'],
+    description: 'Until cured, whenever the afflicted rolls damage, they roll an additional d4 and subtract that result from their normal damage.'
+  },
+  goldenroot: {
+    tags: ['dangerous', 'applied', '20 coins', '0 weight'],
+    description: 'The target treats the next creature they see as a trusted ally, until proved otherwise.'
+  },
+  serpents_tears: {
+    name: "Serpent's Teats",
+    tags: ['dangerous', 'touch', '10 coins', '0 weight'],
+    description: 'Anyone dealing damage against the target rolls twice and takes the better result.'
+  },
+
   /* Magic Items */
   vorpal_sword: {
     description: 'Snicker-snack and all that. Sharp as anything, this simple-seeming sword means to separate one thing from another—the limb from the body or folk from their lives. When you deal damage with the Vorpal Sword, your enemy must choose something (an item, an advantage, a limb) and lose it, permanently.',

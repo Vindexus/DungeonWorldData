@@ -1,0 +1,2 @@
+# Aid or Interfere
+When you **help or hinder someone you have a Bond with**, roll+Bond with them. On a hit they take +1 or -2, your choice. On a 7–9 you also expose yourself to danger, retribution, or cost.

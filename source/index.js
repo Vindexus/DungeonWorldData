@@ -10,10 +10,10 @@ module.exports = {
   },
   basic_moves: {
     points_to: 'moves',
-    list: ['hack_and_slash', 'defy_danger', 'defend']
+    list: ['hack_and_slash', 'defy_danger', 'defend', 'volley', 'discern_realities', 'parley', 'spout_lore', 'aid_or_interfere']
   },
   special_moves: {
     points_to: 'moves',
-    list: ['last_breath']
+    list: ['encumbrance', 'make_camp', 'take_watch', 'bolster', 'supply', 'undertake_a_perilous_journey', 'recover', 'carouse', 'recruit', 'end_of_session', 'level_up', 'outstanding_warrants', 'last_breath']
   }
 }

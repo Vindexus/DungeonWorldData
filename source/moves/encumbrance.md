@@ -1,0 +1,2 @@
+# Encumbrance
+When you **make a move while carrying weight up to or equal to Load**, you’re fine. When you make a move while carrying weight equal to load+1 or load+2, you take -1. When you make a move while carrying weight greater than load+2, you have a choice: drop at least 1 weight and roll at -1, or automatically fail.
