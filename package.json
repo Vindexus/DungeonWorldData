@@ -1,6 +1,6 @@
 {
   "name": "dungeonworld-data",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An NPM module to grab and work with Dungeon World text as JSON. Moves, classes, monsters, items, spells etc.",
   "main": "index.js",
   "scripts": {
