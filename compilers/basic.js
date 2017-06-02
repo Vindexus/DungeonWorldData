@@ -2,7 +2,7 @@ var config = require('./config')
 var _ = require('lodash')
 var handlebars = require('handlebars')
 var path = require('path')
-var helpers = require(path.join(__dirname, "..", "lib", "helpers"))
+var handlebarsHelpers = require(path.join(__dirname, "..", "lib", "handlebars_helpers"))
 var Parser = require('rpgparser-data')
 
 //This data replaces any helpers in text fields with that field's text
@@ -13,9 +13,7 @@ parsedConfig.outputFiles = [path.join(__dirname, "..", "json", "game_data_basic.
 var parser = new Parser()
 parser.init(parsedConfig)
 parser.registerStep(function (gameData) {
-  helpers.forEach(function (helper) {
-    helper(handlebars, gameData)
-  })
+  handlebarsHelpers(handlebars, gameData);
 
   function runHelpers (data) {
     if(typeof(data) == 'object') {

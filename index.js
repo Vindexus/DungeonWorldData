@@ -16,7 +16,7 @@ var DW = function () {
   return {
     rawData: rawData, //None of the mustache helpers are removed. EG: "+1 to {{move parley}}"
     basicData: basicData, //The helpers have been run through simple text replacement. EG: "+1 to Parley"
-    helpers: helpers,
+    helpers: helpers(rawData),
     compilers: {
       raw: rawCompiler,
       basic: basicCompiler
