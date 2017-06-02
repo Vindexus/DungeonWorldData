@@ -2,8 +2,8 @@
 A NodeJS project to put all Dungeon World's data into a JSON file and an npm module.
 
 ## Getting the JSON
-Raw JSON: https://raw.githubusercontent.com/Vindexus/DungeonWorldData/0.0.3/json/game_data_raw.json  
-Basic JSON: https://raw.githubusercontent.com/Vindexus/DungeonWorldData/0.0.3/json/game_data_basic.json
+Raw JSON: https://raw.githubusercontent.com/Vindexus/DungeonWorldData/0.0.4/json/game_data_raw.json  
+Basic JSON: https://raw.githubusercontent.com/Vindexus/DungeonWorldData/0.0.4/json/game_data_basic.json
 
 ## Raw vs Basic
 The raw JSON file includes the unparsed handlebar helpers such as `Take +1 forward to {{move 'defy_danger'}}`.  
