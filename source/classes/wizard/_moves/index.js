@@ -7,7 +7,7 @@ module.exports = {
   "empowered_magic": {
     "name": "Empowered Magic",
     "key": "empowered_magic",
-    "description": "When you {{move 'cast_a_spell_int'}}, on a 10+ you have the option of choosing from the 7-9 list. If you do, you may choose one of these as well:\nThe spell’s effects are maximized\n\nThe spell’s targets are doubled\n - The spell’s effects are maximized\n - The spell’s targets are doubled"
+    "description": "When you {{move 'cast_a_spell_wizard'}}, on a 10+ you have the option of choosing from the 7-9 list. If you do, you may choose one of these as well:\nThe spell’s effects are maximized\n\nThe spell’s targets are doubled\n - The spell’s effects are maximized\n - The spell’s targets are doubled"
   },
   "fount_of_knowledge": {
     "name": "Fount of Knowledge",
@@ -32,7 +32,7 @@ module.exports = {
   "logical": {
     "name": "Logical",
     "key": "logical",
-    "description": "When you use strict deduction to analyze your surroundings, you can discern realities with INT instead of WIS."
+    "description": "When you use strict deduction to analyze your surroundings, you can {{move 'discern_realities'}} with INT instead of WIS."
   },
   "arcane_ward": {
     "name": "Arcane Ward",
@@ -59,7 +59,7 @@ module.exports = {
     "name": "Greater Empowered Magic",
     "key": "greater_empowered_magic",
     "replaces": "empowered_magic",
-    "description": "When you {{move 'cast_a_spell_int'}}, on a 10-11 you have the option of choosing from the 7-9 list. If you do, you may choose one of these effects as well. On a 12+ you get to choose one of these effects for free:\nThe spell’s effects are doubled\n\nThe spell’s targets are doubled\n - The spell’s effects are doubled\n - The spell’s targets are doubled"
+    "description": "When you {{move 'cast_a_spell_wizard'}}, on a 10-11 you have the option of choosing from the 7-9 list. If you do, you may choose one of these effects as well. On a 12+ you get to choose one of these effects for free:\nThe spell’s effects are doubled\n\nThe spell’s targets are doubled\n - The spell’s effects are doubled\n - The spell’s targets are doubled"
   },
   "enchanters_soul": {
     "name": "Enchanter’s Soul",
@@ -115,9 +115,9 @@ module.exports = {
     "key": "prepare_spells",
     "description": "When you spend uninterrupted time (an hour or so) in quiet contemplation of your spellbook, you:\nLose any spells you already have prepared\n\nPrepare new spells of your choice from your spellbook whose total levels don’t exceed your own level+1.\n\nPrepare your cantrips which never count against your limit.\n - Lose any spells you already have prepared\n - Prepare new spells of your choice from your spellbook whose total levels don’t exceed your own level+1.\n - Prepare your cantrips which never count against your limit."
   },
-  "cast_a_spell_int": {
-    "name": "Cast a Spell (Int)",
-    "key": "cast_a_spell_int",
+  "cast_a_spell_wizard": {
+    "name": "Cast a Spell",
+    "key": "cast_a_spell_wizard",
     "description": "When you release a spell you’ve prepared, roll+Int. ✴On a 10+, the spell is successfully cast and you do not forget the spell—you may cast it again later. ✴On a 7-9, the spell is cast, but choose one:\nYou draw unwelcome attention or put yourself in a spot. The GM will tell you how.\n\nThe spell disturbs the fabric of reality as it is cast—take -1 ongoing to cast a spell until the next time you Prepare Spells.\n\nAfter it is cast, the spell is forgotten. You cannot cast the spell again until you prepare spells.\n - You draw unwelcome attention or put yourself in a spot. The GM will tell you how.\n - The spell disturbs the fabric of reality as it is cast—take -1 ongoing to cast a spell until the next time you Prepare Spells.\n - After it is cast, the spell is forgotten. You cannot cast the spell again until you prepare spells.\nNote that maintaining spells with ongoing effects will sometimes cause a penalty to your roll to cast a spell."
   },
   "spell_defense": {

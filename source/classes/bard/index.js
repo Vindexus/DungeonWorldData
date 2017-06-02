@@ -56,5 +56,6 @@ module.exports = {
   advanced_moves_2: {
     points_to: 'moves',
     list: ['healing_chorus', 'vicious_blast', 'unforgettable_face', 'reputation', 'eldritch_chord', 'an_ear_for_magic', 'devious', 'duelists_block', 'con', 'multiclass_master']
-  }
+  },
+  gear_choices: []
 }
