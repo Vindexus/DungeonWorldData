@@ -1,5 +1,8 @@
 var helpers = require('../../lib/source_helper')
 
+var short_sword_tags = ['close', {coins: 8}, {weight: 1}];
+var long_sword_tags = ['close', {damage: '+1'}, {coins: 15}, {weight: 2}]
+
 var items = {
   /* Weapons */
   ragged_bow: {
@@ -32,16 +35,40 @@ var items = {
   throwing_dagger: {
     tags: ['thrown', 'near', {coins: 1}, {weight: 0}]
   },
-  short_sword_axe_warhammer_mace: {
-    name: 'Short Sword, Axe, Warhammer, Mace',
-    tags: ['close', {coins: 8}, {weight: 1}]
+  short_sword: {
+    name: 'Short Sword',
+    tags: short_sword_tags
+  },
+  axe: {
+    name: 'Axe',
+    tags: short_sword_tags
+  },
+  warhammer: {
+    name: 'Warhammer',
+    tags: short_sword_tags
+  },
+  mace: {
+    name: 'Mace',
+    tags: short_sword_tags
   },
   spear: {
     tags: ['reach', 'thrown', 'near', {coins: 5}, {weight: 1}]
   },
   long_sword_battle_axe_flail: {
     name: 'Long Sword, Battle Axe, Flail',
-    tags: ['close', {damage: '+1'}, {coins: 15}, {weight: 2}]
+    tags: long_sword_tags
+  },
+  long_sword: {
+    name: 'Long Sword',
+    tags: long_sword_tags
+  },
+  battle_axe: {
+    name: "Battle Axe",
+    tags: long_sword_tags
+  },
+  flail: {
+    name: 'Flail',
+    tags: long_sword_tags
   },
   halberd: {
     tags: ['reach', {damage: '+1'}, 'two_handed', {coins: 9}, {weight: 2}]
@@ -54,8 +81,8 @@ var items = {
   },
 
   /* Armor */
-  leather_chainmail: {
-    name: 'Leather, Chainmail',
+  chainmail: {
+    name: 'Chainmail',
     tags: [{armor: 1}, 'worn', {coins: 10}, {weight: 1}]
   },
   scale_mail: {
@@ -66,6 +93,11 @@ var items = {
   },
   shield: {
     tags: [{armor: +1}, {coins: 15}, {weight: 2}]
+  },
+
+  leather_armor: {
+    name: 'Leather armor',
+    tags: [{armor: 1}, 'worn', {coins: 10}, {weight: 1}]
   },
 
   /* Dungeon Gear */
@@ -554,7 +586,8 @@ var items = {
 }
 
 for(var key in items) {
-  items[key].name = items[key].name || helpers.keyToName(key)
+  items[key].name = items[key].name || helpers.keyToName(key);
+  items[key].key = key;
 }
 
 module.exports = items

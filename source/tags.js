@@ -1,4 +1,4 @@
-module.exports = {
+var tags = {
   "applied": {
     "name": "Applied",
     "description": "It’s only useful when carefully applied to a person or to something they eat or drink."
@@ -124,3 +124,9 @@ module.exports = {
     "description": "When making your own magic items keep in mind that these items are magical. Simple modifiers, like+1 damage, are the realm of the mundane—magic items should provide more interesting bonuses."
   }
 }
+
+for(var key in tags) {
+  tags[key].key = key;
+}
+
+module.exports = tags;

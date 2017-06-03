@@ -82,27 +82,28 @@ module.exports =
       "evil"
     ]
   },
+  starting_gear: "You carry {{item 'dungeon_rations'}} and some symbol of the divine, describe it (0 weight)",
   "gear_choices": [
     {
-      "label": "",
+      "label": "Choose your defenses",
       "list": [
-        "chainmail",
-        "shield"
+        "{{item 'chainmail'}}",
+        "{{item 'shield'}}"
       ]
     },
     {
-      "label": "",
+      "label": "Choose your armament",
       "list": [
-        "warhammer",
-        "mace",
-        "staff"
+        "{{item 'warhammer'}}",
+        "{{item 'mace'}}",
+        "{{item 'staff'}} and {{item 'bandages'}}"
       ]
     },
     {
-      "label": "",
+      "label": "Choose one",
       "list": [
-        "adventuring_gear",
-        "healing_potion"
+        "{{item 'adventuring_gear'}} and {{item 'dungeon_rations'}}",
+        "{{item 'healing_potion'}}"
       ]
     }
   ],

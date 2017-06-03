@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "node compiler.js",
-    "watch": "nodemon --watch source compiler.js"
+    "watch": "nodemon --watch source --watch lib compiler.js"
   },
   "keywords": [
     "rpg",

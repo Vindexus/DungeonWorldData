@@ -16,7 +16,6 @@ module.exports = {
     '{{blank}} trusted me with a secret.',
     '{{blank}} does not trust me, and for good reason.'
   ],
-  //TODO: Array of arrays
   looks: [
     ['Knowing Eyes', 'Fiery Eyes', 'Joyous Eyes'],
     ['Fancy Hair','Wild Hair','Stylish Cap'], 
@@ -55,7 +54,38 @@ module.exports = {
   },
   advanced_moves_2: {
     points_to: 'moves',
-    list: ['healing_chorus', 'vicious_blast', 'unforgettable_face', 'reputation', 'eldritch_chord', 'an_ear_for_magic', 'devious', 'duelists_block', 'con', 'multiclass_master']
+    list: ['healing_chorus', 'vicious_blast', 'unforgettable_face', 'reputation', 'eldritch_chord', 'an_ear_for_magic', 'devious', 'duelists_block', 'multiclass_master']
   },
-  gear_choices: []
+  staring_gear: ['adventuring_gear'],
+  gear_choices: [{
+    label: 'Choose one instrument, all are 0 weight for you',
+    list: [
+      "Your father's mandolin, repaired",
+      "A fine lute, a gift from a noble",
+      "The pipes with which you courted your first love",
+      "A stolen horn",
+      "A fiddle, never before played",
+      "A songbook in a forgotten tongue"
+    ]
+  }, {
+    label: "Choose your clothing",
+    list: [
+      "{{item 'leather_armor'}}",
+      "Ostentatious clothes (0 weight)"
+    ]
+  }, {
+    label: "Choose your armament",
+    list: [
+      "{{item 'dueling_rapier'}}",
+      "{{item 'ragged_bow'}}, {{item 'bundle_of_arrows'}}, and {{item 'short_sword'}}"
+    ]
+  }, {
+    label: "Choose one",
+    list: [
+      "{{item 'adventuring_gear'}}",
+      "{{item 'bandages'}}",
+      "{{item 'halfling_pipeleaf'}}",
+      "3 coins"
+    ]
+  }]
 }

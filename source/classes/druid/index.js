@@ -88,29 +88,30 @@ module.exports =
       "neutral"
     ]
   },
+  "starting_gear": "You carry some token of your land, describe it.",
   "gear_choices": [
     {
-      "label": "",
+      "label": "Choose your defenses",
       "list": [
-        "hide_armor",
-        "wooden_shield"
+        "{{item 'hide_armor'}}",
+        "{{item 'wooden_shield'}}"
       ]
     },
     {
       "label": "Choose your armament:",
       "list": [
-        "shillelagh",
-        "staff",
-        "spear"
+        "{{item 'shillelagh'}}",
+        "{{item 'staff'}}",
+        "{{item 'spear'}}"
       ]
     },
     {
       "label": "Choose one:",
       "list": [
-        "adventuring_gear",
-        "poultices_and_herbs",
-        "halfling_pipeleaf",
-        "3_antitoxin"
+        "{{item 'adventuring_gear'}}",
+        "{{item 'poultices_and_herbs'}}",
+        "{{item 'halfling_pipeleaf'}}",
+        "{{item 'antitoxin'  uses=3}}"
       ]
     }
   ],
