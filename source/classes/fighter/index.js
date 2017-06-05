@@ -105,8 +105,8 @@ module.exports =
     {
       "label": "Choose your defenses",
       "list": [
-        "{{item 'chainmail'}}",
-        "{{item 'scale_armor'}}"
+        "{{item 'chainmail' uppercase=true}}",
+        "{{item 'scale_armor' uppercase=true}}"
       ]
     },
     {

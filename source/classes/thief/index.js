@@ -78,26 +78,27 @@ module.exports =
       "evil"
     ]
   },
+  "starting_gear": "You start with {{item 'dungeon_rations'}}, {{item 'leather_armor'}}, 3 uses of your chosen poison, and 10 coins.",
   "gear_choices": [
     {
-      "label": "",
+      "label": "Choose your arms",
       "list": [
-        "dagger",
-        "rapier"
+        "{{item 'dagger' uppercase=true}} and {{item 'short_sword'}}",
+        "{{item 'rapier'}}"
       ]
     },
     {
-      "label": "",
+      "label": "Choose a ranged weapon",
       "list": [
-        "3_throwing_daggers",
-        "ragged_bow"
+        "3 {{item 'throwing_dagger' plural=true}}",
+        "{{item 'ragged_bow' uppercase=true}} and {{item 'bundle_of_arrows'}}"
       ]
     },
     {
-      "label": "",
+      "label": "Choose one",
       "list": [
-        "adventuring_gear",
-        "healing_potion"
+        "{{item 'adventuring_gear' uppercase=true}}",
+        "{{item 'healing_potion' uppercase=true}}"
       ]
     }
   ],

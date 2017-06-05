@@ -18,7 +18,7 @@ module.exports =
   "fighter_dwarf": {
     "name": "Dwarf",
     "key": "fighter_dwarf",
-    "description": "When you share a drink with someone, you may parley with them using CON instead of CHA."
+    "description": "When you share a drink with someone, you may {{move 'parley'}} with them using CON instead of CHA."
   },
   "fighter_elf": {
     "name": "Elf",

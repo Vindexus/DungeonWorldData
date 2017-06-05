@@ -97,7 +97,7 @@ module.exports =
     "name": "Impervious Defender",
     "key": "impervious_defender",
     "replaces": "staunch_defender",
-    "description": "When you defend you always get +1 hold, even on a 6-. When you get a 12+ to defend instead of getting hold the nearest attacking creature is stymied giving you a clear advantage, the GM will describe it."
+    "description": "When you {{move 'defend'}} you always get +1 hold, even on a 6-. When you get a 12+ to defend instead of getting hold the nearest attacking creature is stymied giving you a clear advantage, the GM will describe it."
   },
   "tandem_strike": {
     "name": "Tandem Strike",
@@ -126,7 +126,7 @@ module.exports =
   "indomitable": {
     "name": "Indomitable",
     "key": "indomitable",
-    "description": "When you suffer a debility (even through Bloody Aegis) take +1 forward against whatever caused it."
+    "description": "When you suffer a debility (even through {{move 'bloody_aegis'}}) take +1 forward against whatever caused it."
   },
   "perfect_knight": {
     "name": "Perfect Knight",

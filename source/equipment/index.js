@@ -3,6 +3,7 @@ var helpers = require('../../lib/source_helper')
 var short_sword_tags = ['close', {coins: 8}, {weight: 1}];
 var long_sword_tags = ['close', {damage: '+1'}, {coins: 15}, {weight: 2}]
 var club_tags = ['close', {coins: 1}, {weight: 1}];
+var dagger_tags = ['hand', {coins: 2}, {weight: 1}];
 
 var items = {
   /* Weapons */
@@ -11,6 +12,10 @@ var items = {
   },
   fine_bow: {
     tags: ['near', 'far', {coins: 60}, {weight: 2}]
+  },
+  hunters_bow: {
+    name: "hunter's bow",
+    tags: ['near', 'far', {weight: 1}]
   },
   crossbow: {
     tags: ['near', {damage: '+1'}, 'reload', {coins: 35}, {weight: 3}]
@@ -31,9 +36,11 @@ var items = {
   staff: {
     tags: ['close', 'two_handed', {coins: 1}, {weight: 1}]
   },
-  dagger_shiv: {
-    name: 'Dagger, Shiv',
-    tags: ['hand', {coins: 2}, {weight: 1}]
+  dagger: {
+    tags: dagger_tags
+  },
+  shiv: {
+    tags: dagger_tags
   },
   throwing_dagger: {
     tags: ['thrown', 'near', {coins: 1}, {weight: 0}]

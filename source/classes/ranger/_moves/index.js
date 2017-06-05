@@ -1,8 +1,8 @@
 module.exports = 
 {
-  "hunt_and_track_wis": {
-    "name": "Hunt and Track (Wis)",
-    "key": "hunt_and_track_wis",
+  "hunt_and_track": {
+    "name": "Hunt and Track",
+    "key": "hunt_and_track",
     "description": "When you follow a trail of clues left behind by passing creatures, roll+WIS. ✴On a 7+, you follow the creature’s trail until there’s a significant change in its direction or mode of travel. ✴On a 10+, you also choose 1:\n\n - Gain a useful bit of information about your quarry, the GM will tell you what\n - Determine what caused the trail to end"
   },
   "called_shot": {
@@ -73,7 +73,7 @@ module.exports =
   "god_amidst_the_wastes": {
     "name": "God Amidst the Wastes",
     "key": "god_amidst_the_wastes",
-    "description": "Dedicate yourself to a deity (name a new one or choose one that’s already been established). You gain the commune and cast a spell cleric moves. When you select this move, treat yourself as a cleric of level 1 for using spells. Every time you gain a level thereafter, increase your effective cleric level by 1."
+    "description": "Dedicate yourself to a deity (name a new one or choose one that’s already been established). You gain the {{move 'commune'}} and {{move 'cast_a_spell_cleric'}} cleric moves. When you select this move, treat yourself as a cleric of level 1 for using spells. Every time you gain a level thereafter, increase your effective cleric level by 1."
   },
   "follow_me": {
     "name": "Follow Me",

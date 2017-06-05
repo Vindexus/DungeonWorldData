@@ -38,7 +38,7 @@ module.exports =
   "druid_halfling": {
     "name": "Halfling",
     "key": "druid_halfling",
-    "description": "You sing the healing songs of spring and brook. When you make camp, you and your allies heal +1d6."
+    "description": "You sing the healing songs of spring and brook. When you {{move 'make_camp'}}, you and your allies heal +1d6."
   },
   "hunters_brother": {
     "name": "Hunter’s Brother",
@@ -78,7 +78,7 @@ module.exports =
   "formcrafter": {
     "name": "Formcrafter",
     "key": "formcrafter",
-    "description": "When you shapeshift choose a stat: you take +1 ongoing to rolls using that stat while shifted. The GM will choose a stat, too: you take -1 ongoing to rolls using that stat while shifted."
+    "description": "When you {{move 'shapeshift'}} choose a stat: you take +1 ongoing to rolls using that stat while shifted. The GM will choose a stat, too: you take -1 ongoing to rolls using that stat while shifted."
   },
   "elemental_mastery": {
     "name": "Elemental Mastery",
@@ -93,7 +93,7 @@ module.exports =
   "embracing_no_form": {
     "name": "Embracing No Form",
     "key": "embracing_no_form",
-    "description": "When you shapeshift, roll 1d4 and add that total to your hold."
+    "description": "When you {{move 'shapeshift'}}, roll 1d4 and add that total to your hold."
   },
   "doppelgängers_dance": {
     "name": "Doppelgänger’s Dance",
@@ -126,12 +126,12 @@ module.exports =
     "name": "Formshaper",
     "key": "formshaper",
     "requires": "formcrafter",
-    "description": "You may increase your armor by 1 or deal an additional +1d4 damage while in an animal form. Choose which when you shapeshift."
+    "description": "You may increase your armor by 1 or deal an additional +1d4 damage while in an animal form. Choose which when you {{move 'shapeshift'}}."
   },
   "chimera": {
     "name": "Chimera",
     "key": "chimera",
-    "description": "When you shapeshift, you may create a merged form of up to three different shapes. You may be a bear with the wings of an eagle and the head of a ram, for example. Each feature will grant you a different move to make. Your chimera form follows the same rules as shapeshifter otherwise. "
+    "description": "When you {{move 'shapeshift'}}, you may create a merged form of up to three different shapes. You may be a bear with the wings of an eagle and the head of a ram, for example. Each feature will grant you a different move to make. Your chimera form follows the same rules as shapeshifter otherwise. "
   },
   "weather_weaver": {
     "name": "Weather Weaver",

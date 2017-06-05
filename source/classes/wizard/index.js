@@ -76,26 +76,27 @@ module.exports =
       "evil"
     ]
   },
+  "starting_gear": "You start with your spellbook (1 weight) and {{item 'dungeon_rations'}}.",
   "gear_choices": [
     {
-      "label": "",
+      "label": "Choose your defenses",
       "list": [
-        "leather_armor",
-        "bag_of_books_and_3_healing_potions"
+        "{{item 'leather_armor' uppercase=true}}",
+        "{{item 'bag_of_books' uppercase=true}} and 3 {{item 'healing_potion'}}"
       ]
     },
     {
-      "label": "",
+      "label": "Choose your weapon",
       "list": [
-        "dagger",
-        "staff"
+        "{{item 'dagger' uppercase=true}}",
+        "{{item 'staff' uppercase=true}}"
       ]
     },
     {
-      "label": "",
+      "label": "Choose one",
       "list": [
-        "healing_potion",
-        "3_antitoxins"
+        "{{item 'healing_potion' uppercase=true}}",
+        "3 {{item 'antitoxin' plural=true}}"
       ]
     }
   ],

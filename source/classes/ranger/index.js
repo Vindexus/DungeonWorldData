@@ -70,26 +70,27 @@ module.exports =
       "neutral"
     ]
   },
+  "starting_gear": "You start with {{item 'dungeon_rations'}}, {{item 'leather_armor'}}, and a {{item 'bundle_of_arrows'}}.",
   "gear_choices": [
     {
-      "label": "",
+      "label": "Choose your armament",
       "list": [
-        "hunters_bow",
-        "hunters_bow"
+        "{{item 'hunters_bow' uppercase=true}} and {{item 'short_sword'}}",
+        "{{item 'hunters_bow' uppercase=true}} and {{item 'spear'}}",
       ]
     },
     {
-      "label": "",
+      "label": "Choose one",
       "list": [
-        "adventuring_gear",
-        "adventuring_gear"
+        "{{item 'adventuring_gear' uppercase=true}} and {{item 'dungeon_rations'}}",
+        "{{item 'adventuring_gear' uppercase=true}} and {{item 'bundle_of_arrows'}}"
       ]
     }
   ],
   "starting_moves": {
     "points_to": "moves",
     "list": [
-      "hunt_and_track_wis",
+      "hunt_and_track",
       "called_shot",
       "animal_companion",
       "command"
