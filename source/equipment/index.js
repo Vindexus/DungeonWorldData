@@ -2,6 +2,7 @@ var helpers = require('../../lib/source_helper')
 
 var short_sword_tags = ['close', {coins: 8}, {weight: 1}];
 var long_sword_tags = ['close', {damage: '+1'}, {coins: 15}, {weight: 2}]
+var club_tags = ['close', {coins: 1}, {weight: 1}];
 
 var items = {
   /* Weapons */
@@ -21,9 +22,11 @@ var items = {
   elven_arrows: {
     tags: [{ammo: 4}, {coins: 20}, {weight: 1}]
   },
-  club_shillelagh: {
-    name: 'Club, Shillelagh',
-    tags: ['close', {coins: 1}, {weight: 1}]
+  club: {
+    tags: club_tags
+  },
+  shillelagh: {
+    tags: club_tags
   },
   staff: {
     tags: ['close', 'two_handed', {coins: 1}, {weight: 1}]
@@ -82,8 +85,10 @@ var items = {
 
   /* Armor */
   chainmail: {
-    name: 'Chainmail',
     tags: [{armor: 1}, 'worn', {coins: 10}, {weight: 1}]
+  },
+  scale_armor: {
+    tags: [{armor: 2}, 'worn', {weight: 3}]
   },
   scale_mail: {
     tags: [{armor: 2}, 'worn', 'clumsy', {coins: 50}, {weight: 3}]
@@ -92,14 +97,17 @@ var items = {
     tags: [{armor: 3}, 'worn', 'clumsy', {coins: 350}, {weight: 4}]
   },
   shield: {
-    tags: [{armor: +1}, {coins: 15}, {weight: 2}]
+    tags: [{armor: '+1'}, {coins: 15}, {weight: 2}]
   },
-
   leather_armor: {
-    name: 'Leather armor',
     tags: [{armor: 1}, 'worn', {coins: 10}, {weight: 1}]
   },
-
+  hide_armor: {
+    tags: [{armor: 1}, {weight: 1}]
+  },
+  wooden_shield: {
+    tags: [{armor: '+1'}, {weight: 1}]
+  },
   /* Dungeon Gear */
   adventuring_gear: {
     tags: [{uses: 5}, {coins: 20}, {weight: 1}],
@@ -123,6 +131,7 @@ var items = {
   },
   bag_of_books: {
     tags: [{uses: 5}, {coins: 10}, {weight: 2}],
+    plural_name: 'bags of books',
     description: 'When your bag of books contains just the right book for the subject you’re spouting lore on, consult the book, mark off a use, and take +1 to your roll.'
   },
   antitoxin: {
@@ -130,6 +139,8 @@ var items = {
     description: 'When you drink antitoxin, you’re cured of one poison affecting you.'
   },
   dungeon_rations: {
+    name: 'dungeon rations',
+    plural_name: 'dungeon rations',
     tags: ['ration', {uses: 5}, {coins: 3}, {weight: 1}],
     description: 'Not tasty, but not bad either.'
   },
@@ -139,6 +150,7 @@ var items = {
   },
   dwarven_hardtack: {
     tags: ['requires Dwarf', 'ration', {uses: 7}, {coins: 3}, {weight: 1}],
+    plural_name: 'dwarven hardtack',
     description: 'Dwarves say it tastes like home. Everyone else says it tastes like home, if home is a hog farm, and on fire.'
   },
   elven_bread: {
@@ -149,7 +161,6 @@ var items = {
     tags: [{uses: 6}, {coins: 5}, {weight: 0}],
     description: "When you share halfling pipeleaf with someone, expend two uses and take +1 forward to {{move 'parley'}} with them."
   },
-
   oil_of_tagit: {
     tags: ['dangerous', 'applied', {coins: 15}, {weight: 0}],
     description: 'The target falls into a light sleep.'
@@ -163,10 +174,13 @@ var items = {
     description: 'The target treats the next creature they see as a trusted ally, until proved otherwise.'
   },
   serpents_tears: {
-    name: "Serpent's Teats",
+    name: "Serpent's Tears",
     tags: ['dangerous', 'touch', {coins: 10}, {weight: 0}],
     description: 'Anyone dealing damage against the target rolls twice and takes the better result.'
-  },
+  }
+}
+
+var magic_items = {
   /* MAGIC ITEMS*/
   "argo_thaan_holy_avenger": {
     "name": "Argo-Thaan, Holy Avenger",
@@ -585,8 +599,13 @@ var items = {
   }
 }
 
-for(var key in items) {
+for(var key in magic_items) {
+  items[key] = magic_items[key];
   items[key].name = items[key].name || helpers.keyToName(key);
+}
+
+for(var key in items) {
+  items[key].name = items[key].name || helpers.keyToName(key).toLowerCase();
   items[key].key = key;
 }
 

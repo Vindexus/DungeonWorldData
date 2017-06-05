@@ -71,7 +71,7 @@ module.exports = {
     "name": "Highly Logical",
     "key": "highly_logical",
     "replaces": "logical",
-    "description": "When you use strict deduction to analyze your surroundings, you can discern realities with Int instead of Wis. On a 12+ you get to ask the GM any three questions, not limited by the list."
+    "description": "When you use strict deduction to analyze your surroundings, you can {{move 'discern_realities'}} with Int instead of Wis. On a 12+ you get to ask the GM any three questions, not limited by the list."
   },
   "arcane_armor": {
     "name": "Arcane Armor",
@@ -88,7 +88,7 @@ module.exports = {
   "ethereal_tether": {
     "name": "Ethereal Tether",
     "key": "ethereal_tether",
-    "description": "When you have time with a willing or helpless subject you can craft an ethereal tether with them. You perceive what they perceive and can discern realities about someone tethered to you or their surroundings no matter the distance. Someone willingly tethered to you can communicate with you over the tether as if you were in the room with them."
+    "description": "When you have time with a willing or helpless subject you can craft an ethereal tether with them. You perceive what they perceive and can {{move 'discern_realities'}} about someone tethered to you or their surroundings no matter the distance. Someone willingly tethered to you can communicate with you over the tether as if you were in the room with them."
   },
   "mystical_puppet_strings": {
     "name": "Mystical Puppet Strings",

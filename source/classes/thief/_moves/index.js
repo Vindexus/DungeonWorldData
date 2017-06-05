@@ -33,7 +33,7 @@ module.exports =
   "thief_human": {
     "name": "Human",
     "key": "thief_human",
-    "description": "You are a professional. When you {{move 'spout_lore'}} or discern realities about criminal activities, take +1."
+    "description": "You are a professional. When you {{move 'spout_lore'}} or {{move 'discern_realities'}} about criminal activities, take +1."
   },
   "cheap_shot": {
     "name": "Cheap Shot",

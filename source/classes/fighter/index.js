@@ -100,21 +100,22 @@ module.exports =
       "evil"
     ]
   },
+  starting_gear: "You carry your signature weapon and {{item 'dungeon_rations'}}.",
   "gear_choices": [
     {
-      "label": "",
+      "label": "Choose your defenses",
       "list": [
-        "chainmail",
-        "scale_armor"
+        "{{item 'chainmail'}}",
+        "{{item 'scale_armor'}}"
       ]
     },
     {
-      "label": "",
+      "label": "Choose two",
       "list": [
-        "2_healing_potions",
-        "shield",
-        "antitoxin",
-        "22_coins"
+        "2 {{item 'healing_potion' plural=true}}",
+        "{{item 'shield' uppercase=true}}",
+        "{{item 'antitoxin' uppercase=true}}, {{item 'dungeon_rations'}}, and {{item 'poultices_and_herbs'}}",
+        "22 coins"
       ]
     }
   ],

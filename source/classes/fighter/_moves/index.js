@@ -58,12 +58,12 @@ module.exports =
   "seeing_red": {
     "name": "Seeing Red",
     "key": "seeing_red",
-    "description": "When you discern realities during combat, you take +1."
+    "description": "When you {{move 'discern_realities'}} during combat, you take +1."
   },
   "interrogator": {
     "name": "Interrogator",
     "key": "interrogator",
-    "description": "When you parley using threats of impending violence as leverage, you may use STR instead of CHA."
+    "description": "When you {{move 'parley'}} using threats of impending violence as leverage, you may use STR instead of CHA."
   },
   "scent_of_blood": {
     "name": "Scent of Blood",

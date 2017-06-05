@@ -56,7 +56,7 @@ module.exports = {
     points_to: 'moves',
     list: ['healing_chorus', 'vicious_blast', 'unforgettable_face', 'reputation', 'eldritch_chord', 'an_ear_for_magic', 'devious', 'duelists_block', 'multiclass_master']
   },
-  staring_gear: ['adventuring_gear'],
+  starting_gear: "You have {{item 'dungeon_rations' uppercase=true}}",
   gear_choices: [{
     label: 'Choose one instrument, all are 0 weight for you',
     list: [
@@ -70,21 +70,21 @@ module.exports = {
   }, {
     label: "Choose your clothing",
     list: [
-      "{{item 'leather_armor'}}",
+      "{{item 'leather_armor' uppercase=true}}",
       "Ostentatious clothes (0 weight)"
     ]
   }, {
     label: "Choose your armament",
     list: [
-      "{{item 'dueling_rapier'}}",
-      "{{item 'ragged_bow'}}, {{item 'bundle_of_arrows'}}, and {{item 'short_sword'}}"
+      "{{item 'dueling_rapier' uppercase=true}}",
+      "{{item 'ragged_bow' uppercase=true}}, {{item 'bundle_of_arrows'}}, and {{item 'short_sword'}}"
     ]
   }, {
     label: "Choose one",
     list: [
-      "{{item 'adventuring_gear'}}",
-      "{{item 'bandages'}}",
-      "{{item 'halfling_pipeleaf'}}",
+      "{{item 'adventuring_gear' uppercase=true}}",
+      "{{item 'bandages' uppercase=true}}",
+      "{{item 'halfling_pipeleaf' uppercase=true}}",
       "3 coins"
     ]
   }]

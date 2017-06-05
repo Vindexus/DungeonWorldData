@@ -87,23 +87,23 @@ module.exports =
     {
       "label": "Choose your defenses",
       "list": [
-        "{{item 'chainmail'}}",
-        "{{item 'shield'}}"
+        "{{item 'chainmail' uppercase=true}}",
+        "{{item 'shield' uppercase=true}}"
       ]
     },
     {
       "label": "Choose your armament",
       "list": [
-        "{{item 'warhammer'}}",
-        "{{item 'mace'}}",
-        "{{item 'staff'}} and {{item 'bandages'}}"
+        "{{item 'warhammer' uppercase=true}}",
+        "{{item 'mace' uppercase=true}}",
+        "{{item 'staff' uppercase=true}} and {{item 'bandages'}}"
       ]
     },
     {
       "label": "Choose one",
       "list": [
-        "{{item 'adventuring_gear'}} and {{item 'dungeon_rations'}}",
-        "{{item 'healing_potion'}}"
+        "{{item 'adventuring_gear' uppercase=true}} and {{item 'dungeon_rations'}}",
+        "{{item 'healing_potion' uppercase=true}}"
       ]
     }
   ],

@@ -64,26 +64,27 @@ module.exports =
       "good"
     ]
   },
+  starting_gear: "You start with {{item 'dungeon_rations'}}, {{item 'scale_armor'}}, and some mark of faith, describe it (0 weight).",
   "gear_choices": [
     {
-      "label": "",
+      "label": "Choose your weapon",
       "list": [
-        "halberd",
-        "long_sword"
+        "{{item 'halberd' uppercase=true}}",
+        "{{item 'long_sword' uppercase=true}}"
       ]
     },
     {
-      "label": "",
+      "label": "Choose one",
       "list": [
-        "adventuring_gear",
-        "dungeon_rations"
+        "{{item 'adventuring_gear' uppercase=true}}",
+        "{{item 'dungeon_rations' uppercase=true}} and {{item 'healing_potion'}}"
       ]
     }
   ],
   "starting_moves": {
     "points_to": "moves",
     "list": [
-      "lay_on_hands_cha",
+      "lay_on_hands",
       "armored",
       "i_am_the_law",
       "quest"

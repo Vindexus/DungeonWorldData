@@ -93,25 +93,25 @@ module.exports =
     {
       "label": "Choose your defenses",
       "list": [
-        "{{item 'hide_armor'}}",
-        "{{item 'wooden_shield'}}"
+        "{{item 'hide_armor' uppercase=true}}",
+        "{{item 'wooden_shield' uppercase=true}}"
       ]
     },
     {
       "label": "Choose your armament:",
       "list": [
-        "{{item 'shillelagh'}}",
-        "{{item 'staff'}}",
-        "{{item 'spear'}}"
+        "{{item 'shillelagh' uppercase=true}}",
+        "{{item 'staff' uppercase=true}}",
+        "{{item 'spear' uppercase=true}}"
       ]
     },
     {
       "label": "Choose one:",
       "list": [
-        "{{item 'adventuring_gear'}}",
-        "{{item 'poultices_and_herbs'}}",
-        "{{item 'halfling_pipeleaf'}}",
-        "{{item 'antitoxin'  uses=3}}"
+        "{{item 'adventuring_gear' uppercase=true}}",
+        "{{item 'poultices_and_herbs' uppercase=true}}",
+        "{{item 'halfling_pipeleaf' uppercase=true}}",
+        "3 {{item 'antitoxin'  plural=true}}"
       ]
     }
   ],
