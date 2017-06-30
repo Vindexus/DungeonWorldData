@@ -6,7 +6,7 @@ module.exports = {
   },
   classes_list: {
     points_to: 'classes',
-    list: ['bard', 'cleric', 'druid']
+    list: ['bard', 'cleric', 'druid', 'fighter', 'paladin', 'ranger', 'thief', 'wizard']
   },
   basic_moves: {
     points_to: 'moves',
