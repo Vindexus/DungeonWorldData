@@ -123,7 +123,7 @@ module.exports =
   "observant": {
     "name": "Observant",
     "key": "observant",
-    "description": "When you {{move 'hunt_and_track_wis'}}, on a hit you may also ask one question about the creature you are tracking from the {{move 'discern_realities'}} list for free."
+    "description": "When you {{move 'hunt_and_track'}}, on a hit you may also ask one question about the creature you are tracking from the {{move 'discern_realities'}} list for free."
   },
   "special_trick": {
     "name": "Special Trick",
