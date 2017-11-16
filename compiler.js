@@ -1,4 +1,4 @@
 var DW = require('./index')
 
-DW.compilers.raw.run()
 DW.compilers.basic.run()
+DW.compilers.raw.run()

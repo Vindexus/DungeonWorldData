@@ -9,17 +9,17 @@ module.exports = {
     human: 'Baldric, Leena, Dunwick, Willem, Edwyn, Florian, Seraphine, Quorra, Charlotte, Lily, Ramonde, Cassandra'.split(', ')
   },
   bonds: [
-    'This is not my first adventure with {{blank}}.', 
-    'I sang stories of {{blank}} long before I ever met them in person.', 
-    '{{blank}} is often the butt of my jokes.', 
+    'This is not my first adventure with {{blank}}.',
+    'I sang stories of {{blank}} long before I ever met them in person.',
+    '{{blank}} is often the butt of my jokes.',
     'I am writing a ballad about the adventures of {{blank}}.',
     '{{blank}} trusted me with a secret.',
     '{{blank}} does not trust me, and for good reason.'
   ],
   looks: [
     ['Knowing Eyes', 'Fiery Eyes', 'Joyous Eyes'],
-    ['Fancy Hair','Wild Hair','Stylish Cap'], 
-    ['Finery', 'Traveling Clothes', 'Poor Clothes'], 
+    ['Fancy Hair','Wild Hair','Stylish Cap'],
+    ['Finery', 'Traveling Clothes', 'Poor Clothes'],
     ['Fit Body', 'Well-fed Body', 'Thin Body']
   ],
   alignments: {
