@@ -612,7 +612,7 @@ for(var key in magic_items) {
 }
 
 for(var key in items) {
-  items[key].name = items[key].name || helpers.keyToName(key).toLowerCase();
+  items[key].name = items[key].name || helpers.keyToName(key);
   items[key].key = key;
 }
 

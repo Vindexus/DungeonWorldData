@@ -1803,7 +1803,7 @@
           "weight": 2
         }
       ],
-      "name": "ragged bow",
+      "name": "Ragged Bow",
       "key": "ragged_bow"
     },
     {
@@ -1817,7 +1817,7 @@
           "weight": 2
         }
       ],
-      "name": "fine bow",
+      "name": "Fine Bow",
       "key": "fine_bow"
     }
   ],
@@ -4503,7 +4503,252 @@
             "wizard"
           ]
         }
-      ]
+      ],
+      "cantrips": [
+        {
+          "level": "cantrip",
+          "description": "An item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame. The spell lasts as long as it is in your presence.",
+          "key": "light",
+          "name": "Light"
+        },
+        {
+          "level": "cantrip",
+          "description": "",
+          "key": "unseen_servant",
+          "name": "Unseen Servant"
+        },
+        {
+          "level": "cantrip",
+          "description": "",
+          "key": "prestidigitation",
+          "name": "Prestidigitation"
+        }
+      ],
+      "spells_level_1": [
+        {
+          "level": "cantrip",
+          "description": "",
+          "tags": [
+            "summoning"
+          ],
+          "key": "contact_spirits",
+          "name": "Contact Spirits"
+        },
+        {
+          "level": 1,
+          "description": "One of your senses is briefly attuned to magic. The GM will tell you what here is magical.",
+          "tags": [
+            "divination"
+          ],
+          "key": "detect_magic",
+          "name": "Detect Magic"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "tags": [
+            "divination",
+            "ongoing"
+          ],
+          "key": "telepathy",
+          "name": "Telepathy"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "charm_person",
+          "name": "Charm Person"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "invisibility",
+          "name": "Invisibility"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "magic_missile",
+          "name": "Magic Missile"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "alarm",
+          "name": "Alarm"
+        }
+      ],
+      "spells_level_3": [
+        {
+          "level": 3,
+          "description": "",
+          "key": "dispel_magic",
+          "name": "Dispel Magic"
+        },
+        {
+          "level": 3,
+          "description": "",
+          "key": "visions_through_time",
+          "name": "Visions Through Time"
+        }
+      ],
+      "spells_list": [
+        {
+          "level": "cantrip",
+          "description": "An item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame. The spell lasts as long as it is in your presence.",
+          "key": "light",
+          "name": "Light"
+        },
+        {
+          "level": "cantrip",
+          "description": "",
+          "key": "unseen_servant",
+          "name": "Unseen Servant"
+        },
+        {
+          "level": "cantrip",
+          "description": "",
+          "key": "prestidigitation",
+          "name": "Prestidigitation"
+        },
+        {
+          "level": "cantrip",
+          "description": "",
+          "tags": [
+            "summoning"
+          ],
+          "key": "contact_spirits",
+          "name": "Contact Spirits"
+        },
+        {
+          "level": 1,
+          "description": "One of your senses is briefly attuned to magic. The GM will tell you what here is magical.",
+          "tags": [
+            "divination"
+          ],
+          "key": "detect_magic",
+          "name": "Detect Magic"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "tags": [
+            "divination",
+            "ongoing"
+          ],
+          "key": "telepathy",
+          "name": "Telepathy"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "charm_person",
+          "name": "Charm Person"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "invisibility",
+          "name": "Invisibility"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "magic_missile",
+          "name": "Magic Missile"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "alarm",
+          "name": "Alarm"
+        }
+      ],
+      "spells": {
+        "light": {
+          "level": "cantrip",
+          "description": "An item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame. The spell lasts as long as it is in your presence.",
+          "key": "light",
+          "name": "Light"
+        },
+        "prestidigitation": {
+          "level": "cantrip",
+          "description": "",
+          "key": "prestidigitation",
+          "name": "Prestidigitation"
+        },
+        "unseen_servant": {
+          "level": "cantrip",
+          "description": "",
+          "key": "unseen_servant",
+          "name": "Unseen Servant"
+        },
+        "contact_spirits": {
+          "level": "cantrip",
+          "description": "",
+          "tags": [
+            "summoning"
+          ],
+          "key": "contact_spirits",
+          "name": "Contact Spirits"
+        },
+        "detect_magic": {
+          "level": 1,
+          "description": "One of your senses is briefly attuned to magic. The GM will tell you what here is magical.",
+          "tags": [
+            "divination"
+          ],
+          "key": "detect_magic",
+          "name": "Detect Magic"
+        },
+        "telepathy": {
+          "level": 1,
+          "description": "",
+          "tags": [
+            "divination",
+            "ongoing"
+          ],
+          "key": "telepathy",
+          "name": "Telepathy"
+        },
+        "charm_person": {
+          "level": 1,
+          "description": "",
+          "key": "charm_person",
+          "name": "Charm Person"
+        },
+        "invisibility": {
+          "level": 1,
+          "description": "",
+          "key": "invisibility",
+          "name": "Invisibility"
+        },
+        "magic_missile": {
+          "level": 1,
+          "description": "",
+          "key": "magic_missile",
+          "name": "Magic Missile"
+        },
+        "alarm": {
+          "level": 1,
+          "description": "",
+          "key": "alarm",
+          "name": "Alarm"
+        },
+        "dispel_magic": {
+          "level": 3,
+          "description": "",
+          "key": "dispel_magic",
+          "name": "Dispel Magic"
+        },
+        "visions_through_time": {
+          "level": 3,
+          "description": "",
+          "key": "visions_through_time",
+          "name": "Visions Through Time"
+        },
+        "key": "spells"
+      }
     }
   ],
   "basic_moves": [
@@ -7304,7 +7549,252 @@
             "wizard"
           ]
         }
-      ]
+      ],
+      "cantrips": [
+        {
+          "level": "cantrip",
+          "description": "An item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame. The spell lasts as long as it is in your presence.",
+          "key": "light",
+          "name": "Light"
+        },
+        {
+          "level": "cantrip",
+          "description": "",
+          "key": "unseen_servant",
+          "name": "Unseen Servant"
+        },
+        {
+          "level": "cantrip",
+          "description": "",
+          "key": "prestidigitation",
+          "name": "Prestidigitation"
+        }
+      ],
+      "spells_level_1": [
+        {
+          "level": "cantrip",
+          "description": "",
+          "tags": [
+            "summoning"
+          ],
+          "key": "contact_spirits",
+          "name": "Contact Spirits"
+        },
+        {
+          "level": 1,
+          "description": "One of your senses is briefly attuned to magic. The GM will tell you what here is magical.",
+          "tags": [
+            "divination"
+          ],
+          "key": "detect_magic",
+          "name": "Detect Magic"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "tags": [
+            "divination",
+            "ongoing"
+          ],
+          "key": "telepathy",
+          "name": "Telepathy"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "charm_person",
+          "name": "Charm Person"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "invisibility",
+          "name": "Invisibility"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "magic_missile",
+          "name": "Magic Missile"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "alarm",
+          "name": "Alarm"
+        }
+      ],
+      "spells_level_3": [
+        {
+          "level": 3,
+          "description": "",
+          "key": "dispel_magic",
+          "name": "Dispel Magic"
+        },
+        {
+          "level": 3,
+          "description": "",
+          "key": "visions_through_time",
+          "name": "Visions Through Time"
+        }
+      ],
+      "spells_list": [
+        {
+          "level": "cantrip",
+          "description": "An item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame. The spell lasts as long as it is in your presence.",
+          "key": "light",
+          "name": "Light"
+        },
+        {
+          "level": "cantrip",
+          "description": "",
+          "key": "unseen_servant",
+          "name": "Unseen Servant"
+        },
+        {
+          "level": "cantrip",
+          "description": "",
+          "key": "prestidigitation",
+          "name": "Prestidigitation"
+        },
+        {
+          "level": "cantrip",
+          "description": "",
+          "tags": [
+            "summoning"
+          ],
+          "key": "contact_spirits",
+          "name": "Contact Spirits"
+        },
+        {
+          "level": 1,
+          "description": "One of your senses is briefly attuned to magic. The GM will tell you what here is magical.",
+          "tags": [
+            "divination"
+          ],
+          "key": "detect_magic",
+          "name": "Detect Magic"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "tags": [
+            "divination",
+            "ongoing"
+          ],
+          "key": "telepathy",
+          "name": "Telepathy"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "charm_person",
+          "name": "Charm Person"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "invisibility",
+          "name": "Invisibility"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "magic_missile",
+          "name": "Magic Missile"
+        },
+        {
+          "level": 1,
+          "description": "",
+          "key": "alarm",
+          "name": "Alarm"
+        }
+      ],
+      "spells": {
+        "light": {
+          "level": "cantrip",
+          "description": "An item you touch glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame. The spell lasts as long as it is in your presence.",
+          "key": "light",
+          "name": "Light"
+        },
+        "prestidigitation": {
+          "level": "cantrip",
+          "description": "",
+          "key": "prestidigitation",
+          "name": "Prestidigitation"
+        },
+        "unseen_servant": {
+          "level": "cantrip",
+          "description": "",
+          "key": "unseen_servant",
+          "name": "Unseen Servant"
+        },
+        "contact_spirits": {
+          "level": "cantrip",
+          "description": "",
+          "tags": [
+            "summoning"
+          ],
+          "key": "contact_spirits",
+          "name": "Contact Spirits"
+        },
+        "detect_magic": {
+          "level": 1,
+          "description": "One of your senses is briefly attuned to magic. The GM will tell you what here is magical.",
+          "tags": [
+            "divination"
+          ],
+          "key": "detect_magic",
+          "name": "Detect Magic"
+        },
+        "telepathy": {
+          "level": 1,
+          "description": "",
+          "tags": [
+            "divination",
+            "ongoing"
+          ],
+          "key": "telepathy",
+          "name": "Telepathy"
+        },
+        "charm_person": {
+          "level": 1,
+          "description": "",
+          "key": "charm_person",
+          "name": "Charm Person"
+        },
+        "invisibility": {
+          "level": 1,
+          "description": "",
+          "key": "invisibility",
+          "name": "Invisibility"
+        },
+        "magic_missile": {
+          "level": 1,
+          "description": "",
+          "key": "magic_missile",
+          "name": "Magic Missile"
+        },
+        "alarm": {
+          "level": 1,
+          "description": "",
+          "key": "alarm",
+          "name": "Alarm"
+        },
+        "dispel_magic": {
+          "level": 3,
+          "description": "",
+          "key": "dispel_magic",
+          "name": "Dispel Magic"
+        },
+        "visions_through_time": {
+          "level": 3,
+          "description": "",
+          "key": "visions_through_time",
+          "name": "Visions Through Time"
+        },
+        "key": "spells"
+      }
     }
   },
   "equipment": {
@@ -7318,7 +7808,7 @@
           "weight": 2
         }
       ],
-      "name": "ragged bow",
+      "name": "Ragged Bow",
       "key": "ragged_bow"
     },
     "fine_bow": {
@@ -7332,7 +7822,7 @@
           "weight": 2
         }
       ],
-      "name": "fine bow",
+      "name": "Fine Bow",
       "key": "fine_bow"
     },
     "hunters_bow": {
@@ -7360,7 +7850,7 @@
           "weight": 3
         }
       ],
-      "name": "crossbow",
+      "name": "Crossbow",
       "key": "crossbow"
     },
     "bundle_of_arrows": {
@@ -7390,7 +7880,7 @@
           "weight": 1
         }
       ],
-      "name": "elven arrows",
+      "name": "Elven Arrows",
       "key": "elven_arrows"
     },
     "club": {
@@ -7403,7 +7893,7 @@
           "weight": 1
         }
       ],
-      "name": "club",
+      "name": "Club",
       "key": "club"
     },
     "shillelagh": {
@@ -7416,7 +7906,7 @@
           "weight": 1
         }
       ],
-      "name": "shillelagh",
+      "name": "Shillelagh",
       "key": "shillelagh"
     },
     "staff": {
@@ -7430,7 +7920,7 @@
           "weight": 1
         }
       ],
-      "name": "staff",
+      "name": "Staff",
       "key": "staff"
     },
     "dagger": {
@@ -7443,7 +7933,7 @@
           "weight": 1
         }
       ],
-      "name": "dagger",
+      "name": "Dagger",
       "key": "dagger"
     },
     "shiv": {
@@ -7456,7 +7946,7 @@
           "weight": 1
         }
       ],
-      "name": "shiv",
+      "name": "Shiv",
       "key": "shiv"
     },
     "throwing_dagger": {
@@ -7470,7 +7960,7 @@
           "weight": 0
         }
       ],
-      "name": "throwing dagger",
+      "name": "Throwing Dagger",
       "key": "throwing_dagger"
     },
     "short_sword": {
@@ -7537,7 +8027,7 @@
           "weight": 1
         }
       ],
-      "name": "spear",
+      "name": "Spear",
       "key": "spear"
     },
     "long_sword_battle_axe_flail": {
@@ -7618,7 +8108,7 @@
           "weight": 2
         }
       ],
-      "name": "halberd",
+      "name": "Halberd",
       "key": "halberd"
     },
     "rapier": {
@@ -7632,7 +8122,7 @@
           "weight": 1
         }
       ],
-      "name": "rapier",
+      "name": "Rapier",
       "key": "rapier"
     },
     "dueling_rapier": {
@@ -7649,7 +8139,7 @@
           "weight": 2
         }
       ],
-      "name": "dueling rapier",
+      "name": "Dueling Rapier",
       "key": "dueling_rapier"
     },
     "chainmail": {
@@ -7665,7 +8155,7 @@
           "weight": 1
         }
       ],
-      "name": "chainmail",
+      "name": "Chainmail",
       "key": "chainmail"
     },
     "scale_armor": {
@@ -7678,7 +8168,7 @@
           "weight": 3
         }
       ],
-      "name": "scale armor",
+      "name": "Scale Armor",
       "key": "scale_armor"
     },
     "scale_mail": {
@@ -7695,7 +8185,7 @@
           "weight": 3
         }
       ],
-      "name": "scale mail",
+      "name": "Scale Mail",
       "key": "scale_mail"
     },
     "plate": {
@@ -7712,7 +8202,7 @@
           "weight": 4
         }
       ],
-      "name": "plate",
+      "name": "Plate",
       "key": "plate"
     },
     "shield": {
@@ -7727,7 +8217,7 @@
           "weight": 2
         }
       ],
-      "name": "shield",
+      "name": "Shield",
       "key": "shield"
     },
     "leather_armor": {
@@ -7743,7 +8233,7 @@
           "weight": 1
         }
       ],
-      "name": "leather armor",
+      "name": "Leather Armor",
       "key": "leather_armor"
     },
     "hide_armor": {
@@ -7755,7 +8245,7 @@
           "weight": 1
         }
       ],
-      "name": "hide armor",
+      "name": "Hide Armor",
       "key": "hide_armor"
     },
     "wooden_shield": {
@@ -7767,7 +8257,7 @@
           "weight": 1
         }
       ],
-      "name": "wooden shield",
+      "name": "Wooden Shield",
       "key": "wooden_shield"
     },
     "adventuring_gear": {
@@ -7783,7 +8273,7 @@
         }
       ],
       "description": "Adventuring gear is a collection of useful mundane items such as chalk, poles, spikes, ropes, etc. When you rummage through your adventuring gear for some useful mundane item, you find what you need and mark off a use.",
-      "name": "adventuring gear",
+      "name": "Adventuring Gear",
       "key": "adventuring_gear"
     },
     "bandages": {
@@ -7800,7 +8290,7 @@
         }
       ],
       "description": "When you have a few minutes to bandage someone else’s wounds, heal them of 4 damage and expend a use.",
-      "name": "bandages",
+      "name": "Bandages",
       "key": "bandages"
     },
     "poultices_and_herbs": {
@@ -7817,7 +8307,7 @@
         }
       ],
       "description": "When you carefully treat someone’s wounds with poultices and herbs, heal them of 7 damage and expend a use.",
-      "name": "poultices and herbs",
+      "name": "Poultices and Herbs",
       "key": "poultices_and_herbs"
     },
     "healing_potion": {
@@ -7830,7 +8320,7 @@
         }
       ],
       "description": "When you drink an entire healing potion, heal yourself of 10 damage or remove one debility, your choice.",
-      "name": "healing potion",
+      "name": "Healing Potion",
       "key": "healing_potion"
     },
     "keg_of_dwarven_stout": {
@@ -7843,7 +8333,7 @@
           "weight": 4
         }
       ],
-      "name": "keg of dwarven stout",
+      "name": "Keg of Dwarven Stout",
       "key": "keg_of_dwarven_stout"
     },
     "bag_of_books": {
@@ -7860,7 +8350,7 @@
       ],
       "plural_name": "bags of books",
       "description": "When your bag of books contains just the right book for the subject you’re spouting lore on, consult the book, mark off a use, and take +1 to your roll.",
-      "name": "bag of books",
+      "name": "Bag of Books",
       "key": "bag_of_books"
     },
     "antitoxin": {
@@ -7873,7 +8363,7 @@
         }
       ],
       "description": "When you drink antitoxin, you’re cured of one poison affecting you.",
-      "name": "antitoxin",
+      "name": "Antitoxin",
       "key": "antitoxin"
     },
     "dungeon_rations": {
@@ -7908,7 +8398,7 @@
         }
       ],
       "description": "Ostentatious to say the least.",
-      "name": "personal feast",
+      "name": "Personal Feast",
       "key": "personal_feast"
     },
     "dwarven_hardtack": {
@@ -7927,7 +8417,7 @@
       ],
       "plural_name": "dwarven hardtack",
       "description": "Dwarves say it tastes like home. Everyone else says it tastes like home, if home is a hog farm, and on fire.",
-      "name": "dwarven hardtack",
+      "name": "Dwarven Hardtack",
       "key": "dwarven_hardtack"
     },
     "elven_bread": {
@@ -7944,7 +8434,7 @@
         }
       ],
       "description": "Only the greatest of elf-friends are treated to this rare delicacy.",
-      "name": "elven bread",
+      "name": "Elven Bread",
       "key": "elven_bread"
     },
     "halfling_pipeleaf": {
@@ -7960,7 +8450,7 @@
         }
       ],
       "description": "When you share halfling pipeleaf with someone, expend two uses and take +1 forward to {{move 'parley'}} with them.",
-      "name": "halfling pipeleaf",
+      "name": "Halfling Pipeleaf",
       "key": "halfling_pipeleaf"
     },
     "oil_of_tagit": {
@@ -7975,7 +8465,7 @@
         }
       ],
       "description": "The target falls into a light sleep.",
-      "name": "oil of tagit",
+      "name": "Oil of Tagit",
       "key": "oil_of_tagit"
     },
     "bloodweed": {
@@ -7990,7 +8480,7 @@
         }
       ],
       "description": "Until cured, whenever the afflicted rolls damage, they roll an additional d4 and subtract that result from their normal damage.",
-      "name": "bloodweed",
+      "name": "Bloodweed",
       "key": "bloodweed"
     },
     "goldenroot": {
@@ -8005,7 +8495,7 @@
         }
       ],
       "description": "The target treats the next creature they see as a trusted ally, until proved otherwise.",
-      "name": "goldenroot",
+      "name": "Goldenroot",
       "key": "goldenroot"
     },
     "serpents_tears": {
@@ -12684,6 +13174,7 @@
     },
     "key": "tags"
   },
+  "version": "0.0.6",
   "a_little_help_from_my_friends": {
     "name": "A Little Help From My Friends",
     "description": "When you successfully aid someone you take +1 forward as well.",

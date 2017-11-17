@@ -1,5 +1,5 @@
-module.exports =
-{
+
+var wizard = {
   "name": "Wizard",
   "key": "wizard",
   "damage": "d4",
@@ -146,5 +146,34 @@ module.exports =
       "spell_augmentation",
       "self_powered"
     ]
+  },
+  "cantrips": {
+    points_to : "classes.wizard.spells",
+    list: ['light', 'unseen_servant', 'prestidigitation']
+  },
+  "spells_level_1": {
+    points_to: "classes.wizard.spells",
+    list: [
+      'contact_spirits',
+      'detect_magic',
+      'telepathy',
+      'charm_person',
+      'invisibility',
+      'magic_missile',
+      'alarm'
+    ]
+  },
+  "spells_level_3": {
+    points_to: "classes.wizard.spells",
+    list: [
+      'dispel_magic',
+      'visions_through_time'
+    ]
   }
 }
+
+wizard.spells_list = {
+  points_to: "classes.wizard.spells",
+  list: wizard.cantrips.list.concat(wizard.spells_level_1.list)
+};
+module.exports = wizard;
