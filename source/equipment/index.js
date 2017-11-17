@@ -133,7 +133,7 @@ var items = {
     description: 'When you drink an entire healing potion, heal yourself of 10 damage or remove one debility, your choice.'
   },
   keg_of_dwarven_stout: {
-    description: 'When you open a keg of dwarven stout and let everyone drink freely, take +1 to your {{move 'carouse'}} roll. If you drink a whole keg yourself, you are very, very drunk.',
+    description: 'When you open a keg of dwarven stout and let everyone drink freely, take +1 to your {{move "carouse"}} roll. If you drink a whole keg yourself, you are very, very drunk.',
     tags: [{coins: 10}, {weight: 4}]
   },
   bag_of_books: {

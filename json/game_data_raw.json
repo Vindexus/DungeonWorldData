@@ -8324,7 +8324,7 @@
       "key": "healing_potion"
     },
     "keg_of_dwarven_stout": {
-      "description": "When you open a keg of dwarven stout and let everyone drink freely, take +1 to your Carouse roll. If you drink a whole keg yourself, you are very, very drunk.",
+      "description": "When you open a keg of dwarven stout and let everyone drink freely, take +1 to your {{move \"carouse\"}} roll. If you drink a whole keg yourself, you are very, very drunk.",
       "tags": [
         {
           "coins": 10
