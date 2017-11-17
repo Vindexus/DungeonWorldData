@@ -146,5 +146,12 @@ module.exports =
       "spell_augmentation",
       "self_powered"
     ]
+  },
+  "spells_list": {
+    "points_to": "classes.wizard.spells",
+    "list": [
+      'detect_magic',
+      'light'
+    ]
   }
 }
