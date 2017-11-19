@@ -12,13 +12,21 @@ The basic JSON file has had those parsed through basic helpers, so it would beco
 ## Getting the Module
 `npm install dungeonworld-data`
 
-### Examples with NodeJS
-See [this project](https://www.github.com/Vindexus/dw-data-scripts) for a bunch of example NodeJS scripts that use the JSON data.
+## Example Code
 
 ```
 var dw = require('dungeonworld-data')
 console.log("Bard base HP: " + dw.basicData.classes.bard.base_hp)
 ```
+
+## Example Projects
+
+### [NodeJS Sample Scripts](https://www.github.com/Vindexus/dw-data-scripts)
+Some simple command line tools for grabbing Dungeon World data.
+
+### [Discord Bot](https://www.github.com/Vindexus/DungeonWorldDiscordBot)
+A bot for [Discord](http://www.discordapp.com) that responds to commands with Dungeon World content.
+
 
 ## Compiled from Source
 The JSON is compiled from the files and folders in the `source` folder using the npm module I've written called `rpgparser-data`.
