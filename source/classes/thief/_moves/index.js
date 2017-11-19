@@ -3,17 +3,17 @@ module.exports =
   "trap_expert": {
     "name": "Trap Expert",
     "key": "trap_expert",
-    "description": "When you spend a moment to survey a dangerous area, roll+DEX. ✴On a 10+, hold 3. ✴On a 7–9, hold 1. Spend your hold as you walk through the area to ask these questions:\n\n - Is there a trap here and if so, what activates it?\n - What does the trap do when activated?\n - What else is hidden here?"
+    "description": "When you spend a moment to survey a dangerous area, roll+DEX. On a 10+, hold 3. On a 7–9, hold 1. Spend your hold as you walk through the area to ask these questions:\n\n - Is there a trap here and if so, what activates it?\n - What does the trap do when activated?\n - What else is hidden here?"
   },
   "tricks_of_the_trade": {
     "name": "Tricks of the Trade",
     "key": "tricks_of_the_trade",
-    "description": "When you pick locks or pockets or disable traps, roll+DEX. ✴On a 10+, you do it, no problem. ✴On a 7–9, you still do it, but the GM will offer you two options between suspicion, danger, or cost."
+    "description": "When you pick locks or pockets or disable traps, roll+DEX. On a 10+, you do it, no problem. On a 7–9, you still do it, but the GM will offer you two options between suspicion, danger, or cost."
   },
   "backstab": {
     "name": "Backstab",
     "key": "backstab",
-    "description": "When you attack a surprised or defenseless enemy with a melee weapon, you can choose to deal your damage or roll+DEX. ✴On a 10+ choose two. ✴On a 7–9 choose one.\n\n - You don’t get into melee with them\n - You deal your damage+1d6\n - You create an advantage, +1 forward to you or an ally acting on it\n - Reduce their armor by 1 until they repair it"
+    "description": "When you attack a surprised or defenseless enemy with a melee weapon, you can choose to deal your damage or roll+DEX. On a 10+ choose two. On a 7–9 choose one.\n\n - You don’t get into melee with them\n - You deal your damage+1d6\n - You create an advantage, +1 forward to you or an ally acting on it\n - Reduce their armor by 1 until they repair it"
   },
   "flexible_morals": {
     "name": "Flexible Morals",
@@ -78,7 +78,7 @@ module.exports =
   "connections": {
     "name": "Connections",
     "key": "connections",
-    "description": "When you put out word to the criminal underbelly about something you want or need, roll+CHA. ✴On a 10+, someone has it, just for you. ✴On a 7–9, you’ll have to settle for something close or it comes with strings attached, your call."
+    "description": "When you put out word to the criminal underbelly about something you want or need, roll+CHA. On a 10+, someone has it, just for you. On a 7–9, you’ll have to settle for something close or it comes with strings attached, your call."
   },
   "dirty_fighter": {
     "name": "Dirty Fighter",
@@ -117,7 +117,7 @@ module.exports =
   "escape_route": {
     "name": "Escape Route",
     "key": "escape_route",
-    "description": "When you’re in too deep and need a way out, name your escape route and roll+DEX. ✴On a 10+ you’re gone. ✴On a 7–9 you can stay or go, but if you go it costs you: leave something behind or take something with you, the GM will tell you what."
+    "description": "When you’re in too deep and need a way out, name your escape route and roll+DEX. On a 10+ you’re gone. On a 7–9 you can stay or go, but if you go it costs you: leave something behind or take something with you, the GM will tell you what."
   },
   "disguise": {
     "name": "Disguise",

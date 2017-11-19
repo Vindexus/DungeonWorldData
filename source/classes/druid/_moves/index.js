@@ -53,7 +53,7 @@ module.exports =
   "communion_of_whispers": {
     "name": "Communion of Whispers",
     "key": "communion_of_whispers",
-    "description": "When you spend time in a place, making note of its resident spirits and calling on the spirits of the land, roll+Wis. You will be granted a vision of significance to you, your allies, and the spirits around you. ✴On a 10+ the vision will be clear and helpful to you. ✴On a 7–9 the vision is unclear, its meaning murky. ✴On a miss, the vision is upsetting, frightening, or traumatizing. The GM will describe it. Take -1 forward."
+    "description": "When you spend time in a place, making note of its resident spirits and calling on the spirits of the land, roll+Wis. You will be granted a vision of significance to you, your allies, and the spirits around you. On a 10+ the vision will be clear and helpful to you. On a 7–9 the vision is unclear, its meaning murky. On a miss, the vision is upsetting, frightening, or traumatizing. The GM will describe it. Take -1 forward."
   },
   "barkskin": {
     "name": "Barkskin",
@@ -83,7 +83,7 @@ module.exports =
   "elemental_mastery": {
     "name": "Elemental Mastery",
     "key": "elemental_mastery",
-    "description": "When you call on the primal spirits of fire, water, earth or air to perform a task for you roll+Wis. ✴On a 10+ choose two. ✴On a 7–9 choose one. ✴On a miss, some catastrophe occurs as a result of your calling.\n\n - The effect you desire comes to pass\n - You avoid paying nature’s price \n - You retain control"
+    "description": "When you call on the primal spirits of fire, water, earth or air to perform a task for you roll+Wis. On a 10+ choose two. On a 7–9 choose one. On a miss, some catastrophe occurs as a result of your calling.\n\n - The effect you desire comes to pass\n - You avoid paying nature’s price \n - You retain control"
   },
   "balance": {
     "name": "Balance",

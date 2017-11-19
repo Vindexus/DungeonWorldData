@@ -3,7 +3,7 @@ module.exports =
   "bend_bars_lift_gates": {
     "name": "Bend Bars, Lift Gates",
     "key": "bend_bars_lift_gates",
-    "description": "When you use pure strength to destroy an inanimate obstacle, roll+Str. ✴On a 10+, choose 3. ✴On a 7-9 choose 2.\n\n - It doesn’t take a very long time\n - Nothing of value is damaged\n - It doesn’t make an inordinate amount of noise\n - You can fix the thing again without a lot of effort"
+    "description": "When you use pure strength to destroy an inanimate obstacle, roll+Str. On a 10+, choose 3. On a 7-9 choose 2.\n\n - It doesn’t take a very long time\n - Nothing of value is damaged\n - It doesn’t make an inordinate amount of noise\n - You can fix the thing again without a lot of effort"
   },
   "armored": {
     "name": "Armored",
@@ -43,7 +43,7 @@ module.exports =
   "heirloom": {
     "name": "Heirloom",
     "key": "heirloom",
-    "description": "When you consult the spirits that reside within your signature weapon, they will give you an insight relating to the current situation, and might ask you some questions in return, roll+CHA. ✴On a 10+, the GM will give you good detail. ✴On a 7-9, the GM will give you an impression."
+    "description": "When you consult the spirits that reside within your signature weapon, they will give you an insight relating to the current situation, and might ask you some questions in return, roll+CHA. On a 10+, the GM will give you good detail. On a 7-9, the GM will give you an impression."
   },
   "armor_mastery": {
     "name": "Armor Mastery",
@@ -101,7 +101,7 @@ module.exports =
     "name": "Evil Eye",
     "key": "evil_eye",
     "requires": "seeing_red",
-    "description": "When you enter combat, roll+CHA. ✴On a 10+, hold 2. ✴On a 7-9, hold 1. Spend your hold to make eye contact with an NPC present, who freezes or flinches and can’t act until you break it off. ✴On a 6-, your enemies immediately identify you as their biggest threat."
+    "description": "When you enter combat, roll+CHA. On a 10+, hold 2. On a 7-9, hold 1. Spend your hold to make eye contact with an NPC present, who freezes or flinches and can’t act until you break it off. On a 6-, your enemies immediately identify you as their biggest threat."
   },
   "taste_of_blood": {
     "name": "Taste of Blood",
@@ -124,7 +124,7 @@ module.exports =
   "through_deaths_eyes": {
     "name": "Through Death’s Eyes",
     "key": "through_deaths_eyes",
-    "description": "When you go into battle, roll+WIS. ✴On a 10+, name someone who will live and someone who will die. ✴On a 7-9, name someone who will live or someone who will die. Name NPCs, not player characters. The GM will make your vision come true, if it’s even remotely possible. ✴On a 6- you see your own death and consequently take -1 ongoing throughout the battle."
+    "description": "When you go into battle, roll+WIS. On a 10+, name someone who will live and someone who will die. On a 7-9, name someone who will live or someone who will die. Name NPCs, not player characters. The GM will make your vision come true, if it’s even remotely possible. On a 6- you see your own death and consequently take -1 ongoing throughout the battle."
   },
   "eye_for_weaponry": {
     "name": "Eye for Weaponry",

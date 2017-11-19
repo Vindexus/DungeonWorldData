@@ -3,6 +3,6 @@ When you **speak frankly with someone**, you can ask their player a question fro
 
  - Whom do you serve?
  - What do you wish I would do?
- - How can I get you to                       ?
+ - How can I get you to {{blank}}?
  - What are you really feeling right now?
  - What do you most desire?

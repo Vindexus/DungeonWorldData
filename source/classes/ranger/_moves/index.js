@@ -3,12 +3,12 @@ module.exports =
   "hunt_and_track": {
     "name": "Hunt and Track",
     "key": "hunt_and_track",
-    "description": "When you follow a trail of clues left behind by passing creatures, roll+WIS. ✴On a 7+, you follow the creature’s trail until there’s a significant change in its direction or mode of travel. ✴On a 10+, you also choose 1:\n\n - Gain a useful bit of information about your quarry, the GM will tell you what\n - Determine what caused the trail to end"
+    "description": "When you follow a trail of clues left behind by passing creatures, roll+WIS. On a 7+, you follow the creature’s trail until there’s a significant change in its direction or mode of travel. On a 10+, you also choose 1:\n\n - Gain a useful bit of information about your quarry, the GM will tell you what\n - Determine what caused the trail to end"
   },
   "called_shot": {
     "name": "Called Shot",
     "key": "called_shot",
-    "description": "When you attack a defenseless or surprised enemy at range, you can choose to deal your damage or name your target and roll+DEX.\n\n - Head ✴10+: As 7–9, plus your damage ✴7-9: They do nothing but stand and drool for a few moments.\n - Arms ✴10+: As 7-9, plus your damage ✴7-9: They drop anything they’re holding.\n - Legs ✴10+: As 7-9, plus your damage ✴7-9: They’re hobbled and slow moving."
+    "description": "When you attack a defenseless or surprised enemy at range, you can choose to deal your damage or name your target and roll+DEX.\n\n - Head 10+: As 7–9, plus your damage 7-9: They do nothing but stand and drool for a few moments.\n - Arms 10+: As 7-9, plus your damage 7-9: They drop anything they’re holding.\n - Legs 10+: As 7-9, plus your damage 7-9: They’re hobbled and slow moving."
   },
   "animal_companion": {
     "name": "Animal Companion",

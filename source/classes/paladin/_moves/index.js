@@ -3,7 +3,7 @@ module.exports =
   "lay_on_hands": {
     "name": "Lay on Hands",
     "key": "lay_on_hands",
-    "description": "When you touch someone, skin to skin, and pray for their well-being , roll+CHA. ✴On a 10+ you heal 1d8 damage or remove one disease. ✴On a 7–9, they are healed, but the damage or disease is transferred to you."
+    "description": "When you touch someone, skin to skin, and pray for their well-being , roll+CHA. On a 10+ you heal 1d8 damage or remove one disease. On a 7–9, they are healed, but the damage or disease is transferred to you."
   },
   "armored": {
     "name": "Armored",
@@ -13,7 +13,7 @@ module.exports =
   "i_am_the_law": {
     "name": "I Am the Law",
     "key": "i_am_the_law",
-    "description": "When you give an NPC an order based on your divine authority, roll+Cha. ✴On a 7+, they choose one:\n\n - Do what you say\n - Back away cautiously, then flee\n - Attack you\n✴On a 10+, you also take +1 forward against them. ✴On a miss, they do as they please and you take -1 forward against them."
+    "description": "When you give an NPC an order based on your divine authority, roll+Cha. On a 7+, they choose one:\n\n - Do what you say\n - Back away cautiously, then flee\n - Attack you\nOn a 10+, you also take +1 forward against them. On a miss, they do as they please and you take -1 forward against them."
   },
   "quest": {
     "name": "Quest",
